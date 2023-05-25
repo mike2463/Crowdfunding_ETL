@@ -7,7 +7,7 @@ CREATE TABLE "campaign" (
     "cf_id" int   NOT NULL,
     "contact_id" int   NOT NULL,
     "campany_name" VARCHAR   NOT NULL,
-    "description" VARCHAR(200)   NOT NULL,
+    "description" VARCHAR(50)   NOT NULL,
     "goal" float   NOT NULL,
     "pladged" float   NOT NULL,
     "outcome" VARCHAR   NOT NULL,
